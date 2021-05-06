@@ -1,0 +1,22 @@
+<html>
+<meta charset="utf-8"/>
+
+<head>
+<title>Pegando elemento pelo id</title>
+<script>
+	window.onload = function() {
+		var div = document.getElementsByClassName("active");
+		div[1].innerHTML = "Mudei o conteúdo";
+	};
+</script>
+</head>
+<body>
+	<div class="active" id="div01">
+		Uma div com id div01
+	</div>
+	
+	<div class="active" id="div02">
+		Uma div com id div02
+	</div>
+</body>
+</html>
